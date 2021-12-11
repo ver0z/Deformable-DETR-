@@ -94,6 +94,13 @@ If you find Deformable DETR useful in your research, please consider citing:
     ```
     !pip install torch==1.8.0 torchvision==0.9.0 -qq
     ```
+### Edit 11/12/2021
+
+* If you are running on a GPU A100-SXM4-40GB that would be better to use the 1.8 version of torch
+
+```
+!pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+```
 
 ### Compiling CUDA operators
 ```bash
