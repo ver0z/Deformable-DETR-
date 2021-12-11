@@ -126,7 +126,7 @@ code_root/
   446  #if args.dataset_file == "coco_panoptic":
   447  #    num_classes = 250
     
-       num_classes = your_number_of_classes
+       num_classes = your_number_of_classes + 1
 ```
 
 ### Training
