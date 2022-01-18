@@ -1,7 +1,7 @@
 # Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
-```
-To load the correct checkpoints please change the link
-```
+
+# To load the correct checkpoints please change the link
+
 
 import torch
 
