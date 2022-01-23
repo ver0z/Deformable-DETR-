@@ -197,3 +197,12 @@ You can get the config file and pretrained model of Deformable DETR (the link is
 ```
 
 You can also run distributed evaluation by using ```./tools/run_dist_launch.sh``` or ```./tools/run_dist_slurm.sh```.
+
+
+### Inference
+
+For getting inference you may run the inference.py for getting the bounding boxes for a given image, different of DETR that apply softmax() here is applied sigmoid() and some scores might be out of the scale from 0 to 1. You could customize the file to find your specific image path.
+
+```
+python inference.py --resume /path/to/checkpoint.pth 
+```
